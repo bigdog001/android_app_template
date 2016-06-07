@@ -76,6 +76,7 @@ public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedCh
     }
 
     private void initViewPager() {
+        main_content_fgt.setOffscreenPageLimit(fragments.size()-1);
         main_content_fgt.setAdapter(new FragmentStatePagerAdapter(getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int position) {
