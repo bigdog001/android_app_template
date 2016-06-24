@@ -1,1 +1,1 @@
-include ':android_app_template'
+include ':MultiCamera'
